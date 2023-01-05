@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pwd-helper-backend"
+version = "0.1.0"
+description = ""
+authors = ["CXPhoenix <jate9229@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.88.0"}
+webauthn = "^1.6.0"
+deta = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
